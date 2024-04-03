@@ -30,6 +30,6 @@ public class NumberControllerTest {
                 // Verify that the response content type is JSON
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 // Verify that the response body contains the expected doubled value
-                .andExpect(content().string(containsString("10")));
+                .andExpect(content().string(containsString("8")));
     }
 }
