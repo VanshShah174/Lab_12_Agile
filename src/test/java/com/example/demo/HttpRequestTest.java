@@ -22,7 +22,7 @@ public class HttpRequestTest {
 
     @Test
     public void testDoubleNumberEndpoint() {
-        int inputNumber = 4;
+        int inputNumber = 5;
 
         // Construct the URL with the input parameter and call the endpoint
         ResponseEntity<Integer> response = restTemplate.getForEntity(
